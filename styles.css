@@ -1,0 +1,123 @@
+*{box-sizing: border-box;
+}
+.mainBody{
+    width: 1200px;
+    height: 901px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #464F54;
+}
+
+.docBody{
+    width: 1060px;
+    height: 750px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+.verticalLine{
+position: relative;
+left: 135px;
+bottom: 748px;
+width: 1px;
+height: 745px;
+border: 1px solid #E9EDEE;
+}
+
+.blackBlock{
+    width: 875px;
+    height: 190px;
+    float: right;
+    margin-top: 50px;
+    padding: -0px;
+    background-color: #181818;
+}
+
+.orangeBlock{
+    width: 810px;
+    height: 80px;
+    float: right;
+    background-color: #f7bd2c;
+}
+
+ul{
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;    
+}
+
+li{
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.fontProxima p{
+    margin-top: 50px;
+    padding-left: 60px;
+    font-family: ProximaNova, Arial;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: #767676;
+}
+
+.fontPlayfair p{
+    font-family: "PlayfairDisplay-Regular";
+    font-size: 48px;
+    color: #FEFEFE;
+    padding-left: 60px;
+    padding-top: 5px;
+}
+
+hr{
+    width: 815px;
+    height: 2px;
+   margin-top: 15px;
+    border: 2px solid #303030;
+    float: right;
+}
+
+.author{
+    margin-top: 195px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: ProximaNova, Arial;
+    color: #B5B5B5;
+}
+
+h1, .docBody p{
+    margin-left: 125px;
+    margin-right: 140px;
+}
+
+h1{
+    font-size: 78px;
+    font-family: FuturaPT-Heavy, Arial;
+    color: #2A2A2A;
+    margin-top: 35px;
+}
+
+.firstParagraf{
+    font-size: 30px;
+    font-style:italic;
+    color: #8F8F8F;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.secondParagraf, .thirdParagraf {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+span{
+    font-style:italic;
+}
